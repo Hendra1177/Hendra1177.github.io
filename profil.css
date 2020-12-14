@@ -1,0 +1,59 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: bebas;
+}
+header{
+	background-image:url("as.jpg");
+	height: 1150px;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 30px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+
+.main{
+	max-width: 1200px
+	margin:auto;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-size: 80px;
+	font-family: bebas;
+	padding: 100px;
+}
+p{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-family: Gill Sans MT;
+	padding: 1px;
+}
+h2{
+	color: white;
+}
+tr{
+	color: white;
+	padding-right: 10px;
+}
